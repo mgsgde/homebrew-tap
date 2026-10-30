@@ -8,7 +8,7 @@ cask "whisper-shortcut" do
   homepage "https://github.com/mgsgde/whisper-shortcut"
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "WhisperShortcut.app"
 
