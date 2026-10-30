@@ -7,7 +7,6 @@ cask "whisper-shortcut" do
   desc "Menu bar dictation, meeting transcripts and chat with an MCP server"
   homepage "https://github.com/mgsgde/whisper-shortcut"
 
-  auto_updates true
   depends_on macos: :sequoia
 
   app "WhisperShortcut.app"
